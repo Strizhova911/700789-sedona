@@ -19,6 +19,45 @@
             </nav>
     </header>
     <main class="container">
+        <form class="filter" method="get"
+        action="https://echo.htmlacademy.ru">
+    <fieldset>
+      <legend>Инфраструктура:</legend>
+      <ul>
+        <li class="filter-option">
+          <input type="checkbox" name="pool" id="pool-id" checked>
+          <label for="pool-id">Бассейн</label>
+        </li>
+        <li class="filter-option">
+          <input type="checkbox" name="parking" id="parking-id">
+          <label for="parking-id">Парковка</label>
+        </li>
+        <li class="filter-option">
+          <input type="checkbox" name="Wi-Fi" id="Wi-Fi-id">
+          <label for="Wi-Fi-id">Wi-Fi</label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Тип жилья:</legend>
+        <ul>
+          <li class="filter-option">
+            <input type="checkbox" name="hotel" id="hotel-id" checked>
+            <label for="hotel-id">Гостиница</label>
+          </li>
+          <li class="filter-option">
+            <input type="checkbox" name="motel" id="motel-id"checked>
+            <label for="motel-id">Мотель</label>
+          </li>
+          <li class="filter-option">
+            <input type="checkbox" name="apartments" id="apartments-id"checked>
+            <label for="apartments-id">Апартаменты</label>
+          </li>
+        </ul>
+      </fieldset>
+      
+    <button type="submit">Показать</button>
+  </form>
             <h1 class="visualy-hidden">Гостиницы города Седона</h1>
           <section class="hotels">  
         <h2 class="visually-hidden">Cписок гостиниц</h2>

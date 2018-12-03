@@ -31,9 +31,25 @@
             <section class="appointment">
                 <h2 class="visually-hidden">Бронирование гостиницы</h2>
                   <p>Заинтересовались?</p>
-                <p class="appointment-info">Укажите предполагаемые даты поездки и мыпокажем вам лучшее предложение гостиниц в Седоне</p>
+                <p class="appointment-info">Укажите предполагаемые даты поездки и мы покажем вам лучшее предложение гостиниц в Седоне</p>
                 <h2>Поиск гостиницы в Седоне</h2>
-                <!-- Здесь будет форма -->
+                <form class="appointment-form" action="http://echo.htmlacademy.ru" metod="post">
+                  <p class="appointment-item">
+                  <label for="arrival-date-id">Дата заезда:</label>
+                  <input type="text" name="arrival-date" id="arrival-date-id" placeholder="24 апреля 2017">
+                  </p>
+                  <p class="appointment-item">
+                  <label for="date-of-departure-id">Дата выезда:</label>
+                  <input type="text" name="date-of-departure" id="date-of-departure-id" placeholder="4 июля 2017">
+                  </p>
+                  <p class="appointment-item">
+                  <label for="adults">Взрослые</label>
+                  <input type="number" min="1" max="500" step="1" id="adults" name="adults">
+                  <label for="children">Взрослые</label>
+                  <input type="number" min="0" max="500" step="1" id="children" name="children">
+                  </p>
+                  <button type="submit">Найти</button>
+                </form>
               </section> 
       </main>
 
