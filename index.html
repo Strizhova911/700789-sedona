@@ -4,6 +4,9 @@
   <head>
     <meta charset="utf-8">
     <title> City of Sedona</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
       <header class="main-header">
@@ -15,24 +18,27 @@
                 <li><a href="info.html">Информация</a></li>
                 <li><a href="photo_video.html">Фото и видео</a></li>
                 <li><a href="state_map.html">Карта штата</a></li>
-                <li><a href="hotels.html">Гостиницы</a></li>
+                <li><a href="catalog.html">Гостиницы</a></li>
               </ul>
             </nav>
     </header>
     <main class="container">
         <h1 class="visually-hidden">Город "Седона"</h1>
-        <section class="welcome">  
+        <div class="welcome-words">
+            <img src="img/welcome.png" width="459" height="353" alt="Welcome-words"> 
+        </div>
+        <section class="welcome">
           <p>Седона-небольшой городок в Аризоне, заслуживающий большего!</p>
         </section>
         <section class="reason">
             <h2 class="visually-hidden">Преимущества города </h2>
-            <p> Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон:</p>
+            <p class="reason-title"> Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон:</p>
             <!-- Здесь будет список причин -->
             <section class="appointment">
                 <h2 class="visually-hidden">Бронирование гостиницы</h2>
-                  <p>Заинтересовались?</p>
+                  <p class="interested-in">Заинтересовались?</p>
                 <p class="appointment-info">Укажите предполагаемые даты поездки и мы покажем вам лучшее предложение гостиниц в Седоне</p>
-                <h2>Поиск гостиницы в Седоне</h2>
+                <h2 class="appointment-title">Поиск гостиницы в Седоне</h2>
                 <form class="appointment-form" action="http://echo.htmlacademy.ru" metod="post">
                   <p class="appointment-item">
                   <label for="arrival-date-id">Дата заезда:</label>
@@ -45,10 +51,10 @@
                   <p class="appointment-item">
                   <label for="adults">Взрослые</label>
                   <input type="number" min="1" max="500" step="1" id="adults" name="adults">
-                  <label for="children">Взрослые</label>
+                  <label for="children">Дети</label>
                   <input type="number" min="0" max="500" step="1" id="children" name="children">
                   </p>
-                  <button type="submit">Найти</button>
+                  <button  type="submit">Найти</button>
                 </form>
               </section> 
       </main>
