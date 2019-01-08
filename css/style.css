@@ -43,6 +43,7 @@ a {
   
 .reason-title {
     color: rgb(51, 51, 51); 
+    font-weight:400;
   }
   .interested-in{
     font-size:30px;
@@ -53,6 +54,13 @@ a {
     font-size:14px;
     line-height: 24px;
     color: #333333;
+    font-weight:400;
+  }
+  .footer-contacts a{
+    font-size:21px;
+    line-height: 26px;
+    color: #000000;
+
   }
   .hotels-list{
     list-style: none;
@@ -62,8 +70,8 @@ a {
         font-size:21px;
         line-height: 26px;
         color: #ffffff;
-        background-image: url("../img/search.jpg");
-        background-repeat: no-repeat;
+        background-color:#766357;
+      
       }
       .button {
         font-size:21px;
@@ -92,6 +100,12 @@ a {
       
         background-color: #766357;
         border: none;}
+        .reservation-bottom:hover{
+          background-color:#604e43;
+        }
+        .reservation-bottom:active{
+          background-color:#503e33; 
+        }
 
         .details-bottom{
             font-size:14px;
@@ -99,12 +113,21 @@ a {
         color: #ffffff;
       
         background-color: #81b3d2;
-        border: none;}
+        border: none;
+      }
+        .details-bottom:hover{
+          background-color:#669ec0;
+        }
+        .details-bottom:active{
+          background-color:#5496bd;
+
+        }
         
         .hotels-type,.hotel-price{
                 font-size: 14px;
                 line-height:21px;
-                color:#333333;    
+                color:#333333; 
+                font-weight: 400;   
               }
         .hotel-rating{
             font-size: 14px;
@@ -112,6 +135,7 @@ a {
             color:#666666;
             background-color: #f2f2f2;
             border: none;
+            font-weight: 400; 
         }  
         .site-navigation-current a{
             color:#766357;
