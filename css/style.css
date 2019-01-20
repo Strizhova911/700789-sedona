@@ -477,6 +477,7 @@ height:47px;
 justify-content:space-around;
 align-items: center;
 margin-top: -43px;
+margin-top: -6px;
 
 min-height: 120px;
       }
@@ -627,11 +628,12 @@ padding-right: 43px;
 .description-hotels{
   padding-top: 12px;
   margin-left: 31px;
+  padding-bottom: 20px;
 }
 .rating{
   margin-left:auto;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 .hotels-item-image {
   padding-top: 10px;
@@ -695,6 +697,9 @@ background-color:#5496bd;
   margin-right:
 }      
 .hotel-rating{
+ 
+  position: relative;
+  bottom: -39px;
  font-size: 14px;
 line-height:21px;
 color:#666666;
@@ -713,6 +718,9 @@ padding:0;
 margin:0;
 /* height:80px; */
 align-items: center;
+}
+.stars {
+  margin-top: 24px;
 }
 .stars-item{
 padding-right:5px;
