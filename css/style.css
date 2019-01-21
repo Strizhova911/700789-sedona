@@ -308,7 +308,7 @@ left:0;
    position: absolute;
    z-index: 100;
    left:50%;
-   margin-left: -297px;
+   margin-left: -290px;
     border: none;
     padding-top: 23px;
     padding-left: 69px;}
@@ -335,6 +335,14 @@ background-color: #ebebeb;
    margin:0;
    border:none;
    margin-top:29px;
+ }
+ .appointment-item input::placeholder{
+   font-weight: 700;
+   font-size:14px;
+    line-height: 26px;
+    color:#000000;
+    text-transform: uppercase;
+
  }
  .appointment-item input{
    padding-left: 12px;
