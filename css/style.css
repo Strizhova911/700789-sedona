@@ -308,7 +308,7 @@ left:0;
    position: absolute;
    z-index: 100;
    left:50%;
-   margin-left: -288px;
+   margin-left: -297px;
     border: none;
     padding-top: 23px;
     padding-left: 69px;}
@@ -366,12 +366,12 @@ height:38px;
   width:38px;
   height:38px;
   background:#f2f2f2;
-
 margin-left:0px;
 border:none;
-font-size: 33px;
+font-size: 30px;
 color:#a9a9a9;
  }
+
  .button-plus:hover{
   color: #000000;
  }
@@ -495,6 +495,10 @@ background: #ffffff;
 position: relative;
 top:-15px;
       }
+.main-footer-catalog{
+  top:-5px;
+  border-top: 1px solid #e5e5e5;
+}      
   .social-button {
   display: flex;
   align-items: center;
@@ -544,7 +548,8 @@ align-items: center;
   align-items: center;
   margin:0;
   padding:0;
-  margin-left: 37px;
+  margin-left: 40px;
+  margin-top: -2px;
 }  
  .price a{
 color:#81b3d2;
