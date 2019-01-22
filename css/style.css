@@ -39,6 +39,7 @@ html {
 	margin: 0 auto;
 	-webkit-box-shadow: 0px 0px 47px -11px rgba(0, 0, 0, 0.84);
 	box-shadow: 0px 0px 47px -11px rgba(0, 0, 0, 0.84);
+	position: relative; 
 }
 .main-header {
 	min-height: 57px;
@@ -96,6 +97,7 @@ a {
 }
 .welcome-words {
 	background-image: url("../img/background_welcome.jpg");
+	background-color: #deedf6;
 	background-repeat: no-repeat;
 	min-height: 512px;
 	text-align: center;
@@ -113,11 +115,12 @@ a {
 	left: 0;
 }
 .saying {
+	width: 448px;
+	padding-left: 8px;
 	font-size: 21px;
-	/* min-height: 100px; */
 	text-align: center;
 	margin-top: 55px;
-	margin-left: 2px;
+	margin-left: 371px;
 }
 .reason-title {
 	color: rgb(51, 51, 51);
@@ -131,7 +134,18 @@ a {
 .item-title {
 	font-size: 21px;
 	line-height: 22px;
-	margin-top: 25px;
+	margin-top: 21px;
+	width: 233px;
+    text-align: center;
+    padding-left: 114px;
+}
+.item-title-special{
+	width: 260px;
+	font-size: 21px;
+	line-height: 22px;
+	margin-top: 23px;
+	text-align: center;
+	padding-left: 94px;
 }
 .item-title-extra {
 	font-size: 21px;
@@ -159,7 +173,7 @@ a {
 	min-height: 255px;
 	background-color: #eeeeee;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 27px;
 	padding-right: 23px;
 	padding-left: 25px;
 }
@@ -177,6 +191,15 @@ a {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 21px;
+	padding-left: 33px;
+    width: 317px;
+}
+.description-item-special-2{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	padding-left: 20px;
+    width: 332px;
 }
 .description-reason {
 	font-weight: 400;
@@ -184,13 +207,24 @@ a {
 	line-height: 22px;
 	margin-left: -12px;
 }
+.description-reason-3{
+	width: 295px;
+    padding-left: 78px;
+}
+.description-reason-4{
+	width: 320px;
+    padding-left: 57px;
+}
+.description-reason-5{
+	width: 311px;
+    padding-left: 59px;
+}
 .item-number {
 	font-weight: 400;
 	text-align: center;
 	font-size: 14px;
 	line-height: 21px;
 	padding-bottom: 9px;
-	padding-left: 11px;
 }
 .extra-reason-list {
 	display: -webkit-box;
@@ -248,6 +282,7 @@ a {
 }
 .appointment-title {
 	font-size: 21px;
+	font-weight: 700;
 	line-height: 26px;
 	color: #ffffff;
 	background-color: #766357;
@@ -430,6 +465,12 @@ a {
 .children label {
 	margin-right: 26px;
 }
+.adults input{
+	font-weight: 700;
+}
+.children input{
+	font-weight: 700;
+}
 .find {
 	display: block;
 	background-color: #81b3d2;
@@ -441,6 +482,7 @@ a {
 	text-transform: uppercase;
 	border: none;
 	margin-top: 55px;
+	font-weight: 700;
 }
 .adults {
 	display: -webkit-box;
@@ -836,6 +878,7 @@ a {
 	min-height: 217px;
 	color: #ffffff;
 	padding: 5px 59px;
+	background-color: #6587ad;
 }
 .filter fieldset {
 	margin-top: 20px;
